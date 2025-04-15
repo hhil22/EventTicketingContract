@@ -22,4 +22,3 @@ This smart contract is written in Solidity for a simple event ticketing system.
 - Events: TicketPurchased, OwnershipTransferred
 
 ## License
-MIT
