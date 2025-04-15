@@ -1,6 +1,14 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
+/**
+ * @title EventTicketing Smart Contract
+ * @author Hutson Hilburn
+ * @course ISDS 4111
+ * @description This smart contract allows users to buy tickets for an event,
+ *              while the contract owner manages sales and can withdraw funds.
+ */
+
 contract EventTicketing {
     address public owner;
     uint public ticketPrice;
